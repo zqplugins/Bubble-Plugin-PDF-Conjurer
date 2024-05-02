@@ -1,0 +1,13 @@
+{
+    "caption": "End repeating structure",
+    "fields": {
+        "AGK": {
+            "caption": "Name",
+            "doc": "The name of the structure you're finishing.",
+            "editor": "DynamicValue",
+            "name": "repeating_structure_name",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

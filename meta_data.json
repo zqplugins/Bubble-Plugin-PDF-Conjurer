@@ -1,0 +1,20 @@
+{
+    "categories": {
+        "0": "visual elements",
+        "1": "input forms",
+        "2": "productivity",
+        "3": "technical",
+        "4": "media",
+        "5": "small business",
+        "6": "ecommerce"
+    },
+    "demo_page": "https://bubble.io/page?name=index&id=sdfsfsdfsdf&tab=tabs-1",
+    "description": "A free, powerful, reliable and flexible plugin that allows you to create PDF files to be downloaded, opened or printed by your user's browser and/or save the PDF to your database. It works in the browser page and in backend workflows, uses no API, no external services and does not increase your app's costs. If used in the backend workflow it uses a little app capacity just like any other backend workflow.\n\n🔔 For more advanced PDF functionality check out our best selling Bubble Page to PDF converter  plugin: https://zeroqode.com/plugin/bubble-page-to-pdf-converter-plugin-for-bubble--1528878356625x811358995289735200\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/pdf-conjurer-plugin-for-bubble-1713183451443x512076475961438660\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://zeroqode.com\n \nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-q.cdn.bubble.io/f1713873537629x932095167789214500/PDF%20Conjurer.webp",
+    "instructions": "Use the plugin actions in a workflow to create the pdf and finish it with a download, print or open pdf action.",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "PDF Conjurer",
+    "plugin_instructions": "",
+    "sa_node_version": 18
+}

@@ -1,0 +1,103 @@
+{
+    "category": "plugins",
+    "display": "PDF Conjurer (backend) | Request external conjure PDF",
+    "fields": {
+        "APY": {
+            "caption": "Insert the previous PDF Conjurer Server-side step result",
+            "editor": "Label",
+            "name": "config_info",
+            "rank": 0
+        },
+        "APZ": {
+            "caption": "Previous step result",
+            "editor": "DynamicValue",
+            "name": "prev_configs",
+            "rank": 1,
+            "value": "text"
+        },
+        "APa": {
+            "caption": "File name",
+            "default_val": "Document",
+            "editor": "DynamicValue",
+            "name": "file_name",
+            "rank": 2,
+            "value": "text"
+        },
+        "APb": {
+            "caption": "Set data header",
+            "default_val": true,
+            "doc": "Add the data header at the beginning of content (data:application/pdf;base64, ...).",
+            "editor": "DynamicValue",
+            "name": "set_data_header",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "APc": {
+            "caption": "Return URL for PDF content",
+            "doc": "The URL of the publicly exposed backend workflow or API endpoint the PDF result will be sent to.",
+            "editor": "DynamicValue",
+            "name": "return_url_for_pdf_content",
+            "rank": 5,
+            "value": "text"
+        },
+        "APe": {
+            "caption": "Error return URL",
+            "doc": "The URL of the publicly exposed backend workflow or API endpoint a possible error message should be sent to. Optional, but highly recommended.",
+            "editor": "DynamicValue",
+            "name": "error_return_url",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "APf": {
+            "caption": "Additional data",
+            "doc": "Optional. In case you want to send additional data needed for the external environment to function properly. Just a text box, use as desired, for example by sending a raw JSON object or any unique ID so you know later on what was that specifc PDF about.",
+            "editor": "DynamicValue",
+            "name": "additional_data",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "APg": {
+            "caption": "External function URL",
+            "doc": "The URL of the external function to be called.",
+            "editor": "DynamicValue",
+            "name": "external_function_url",
+            "rank": 4,
+            "value": "text"
+        },
+        "APh": {
+            "caption": "External upload options",
+            "editor": "Label",
+            "name": "external_upload_options",
+            "rank": 8
+        },
+        "APi": {
+            "caption": "DO Bucket name",
+            "doc": "Digital Ocean space bucket name",
+            "editor": "DynamicValue",
+            "name": "bucketName",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "APj": {
+            "caption": "Access Key ID",
+            "editor": "DynamicValue",
+            "name": "accessKeyId",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "APk": {
+            "caption": "Secret Access Key",
+            "editor": "DynamicValue",
+            "name": "secretAccessKey",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
