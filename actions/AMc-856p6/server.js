@@ -72,6 +72,7 @@ async function(properties, context) {
             console.log(`${property}_COLUMN_DATA_OUTPUT`, JSON.stringify(dataValue,null,2), await bubbleValue.length())
         } else {
             console.log(`${property}_COLUMN_DATA`, 'unknown type:', bubbleValue);
+            dataValue = bubbleValue;
         }
 
         return { ...previousResult, [property]: dataValue };

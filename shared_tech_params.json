@@ -55,6 +55,14 @@
         "APN": {
             "name": "bbcode SS fix",
             "url": "//meta-l.cdn.bubble.io/f1688082896800x500622453357242560/bbcodeparser_fixedcode_v5_SS.js"
+        },
+        "APo": {
+            "name": "test",
+            "url": "//meta-q.cdn.bubble.io/f1717070845726x991135525087452000/pdfmake.min.js"
+        },
+        "APp": {
+            "name": "vf",
+            "url": "//meta-q.cdn.bubble.io/f1717071070971x371157566892247740/vfs_fonts.js"
         }
     },
     "dependencies": {

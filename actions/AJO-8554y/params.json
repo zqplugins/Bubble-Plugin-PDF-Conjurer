@@ -37,6 +37,7 @@
         },
         "AIt": {
             "caption": "Image",
+            "doc": "the library only supportsJPEG or PNG.",
             "editor": "DynamicValue",
             "name": "image",
             "optional": true,

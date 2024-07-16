@@ -12,6 +12,7 @@
         },
         "AHy": {
             "caption": "File name",
+            "default_val": "Document",
             "doc": "File name resulting of the action \"Conjure PDF\"",
             "editor": "DynamicValue",
             "name": "file_name",

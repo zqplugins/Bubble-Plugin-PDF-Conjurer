@@ -8,7 +8,7 @@
             "editor": "DynamicValue",
             "long_text": true,
             "name": "inputtedText",
-            "optional": true,
+            "optional": false,
             "rank": 0,
             "value": "text"
         },
